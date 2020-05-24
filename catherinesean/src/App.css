@@ -1,0 +1,154 @@
+.App .nav-bar .MuiAppBar-colorPrimary {
+  background-color: rgba(255, 255, 255);
+  color: #041e42;
+  margin: 0;
+}
+
+.App .nav-bar .title {
+  font-size: 4.5rem;
+}
+
+.App .nav-bar .names {
+  font-size: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.App .nav-bar .landing-page-details .wedding-date {
+  margin: 1rem;
+  font-size: 2.625rem;
+
+}
+
+.App .nav-bar .landing-page-details .wedding-location {
+  margin: 1rem;
+}
+
+
+.App .nav-bar .MuiToolbar-root {
+  align-items: center;
+  color: #041e42;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.App .nav-bar .MuiTypography-root {
+  font-family: 'Monsieur La Doulaise', cursive;
+}
+
+.App .nav-bar .MuiToolbar-root .date-details {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.App .nav-bar .MuiToolbar-root .date-details .wedding-location {
+  margin: 1rem;
+  font-size: 19px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.App .nav-bar .MuiToolbar-root .date-details .wedding-date {
+  margin: 1rem;
+  font-size: 19px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.photos {
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+.photos .photo {
+  width: 100%;
+  height: auto;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.App .nav-bar .MuiToolbar-root .links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 19px;
+}
+
+.App .nav-bar .MuiToolbar-root .links .link {
+  margin: 1rem;
+  color: #041e42;
+}
+
+.App .nav-bar .MuiToolbar-root .links .link a {
+  color: #041e42;
+  text-decoration: none;
+}
+
+.rosecliff-mansion {
+  height: auto;
+  width: 100%;
+}
+
+.landing-page-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+
+.App .nav-bar .landing-page-details .date-details .wedding-date {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.6875rem;
+}
+
+.App .nav-bar .landing-page-details .date-details .wedding-location {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.6875rem;
+}
+
+.App .nav-bar .landing-page-details .date-details {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  justify-content: space-around;
+  background-color: #041e42;
+  color: white;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.App .nav-bar .landing-page-details .date-details .day {
+  font-size: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.App .nav-bar .landing-page-details .date-details .city{
+  font-size: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.App .nav-bar .landing-page-details .date-details .year {
+  font-size: 19px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.App .nav-bar .landing-page-details .date-details .state {
+  font-size: 19px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media (min-width: 768px) {
+  .App .nav-bar .MuiButtonBase-root  {
+    display: none;
+  }
+}
