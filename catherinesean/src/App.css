@@ -390,7 +390,6 @@
   color: rgba(255, 255, 255);
 }
 
-
 @media (min-width: 768px) {
   .App .nav-bar .MuiButtonBase-root  {
     display: none;
