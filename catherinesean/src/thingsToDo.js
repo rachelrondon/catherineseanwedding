@@ -23,7 +23,12 @@ const ThingsToDo = () => {
         <div className="left-column">
           <div className="details">
             <div class="things-to-do-img">
-              <img className="img" src={newportmansions} alt="newport mansions"></img>
+              <img className="img"
+                style={{
+                  backgroundImage:{newportmansions}
+                }}
+                alt="newport mansions">
+              </img>
             </div>
             <h2 className="details-title">Newport Mansions</h2>
             <h3 className="detail">424 Bellevue Avenue</h3>

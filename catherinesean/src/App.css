@@ -390,6 +390,17 @@
   color: rgba(255, 255, 255);
 }
 
+.things-to-do .things-to-do-img  {
+  width: 100%; 
+  height: auto;
+}
+
+.things-to-do .things-to-do-img .img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
 @media (min-width: 768px) {
   .App .nav-bar .MuiButtonBase-root  {
     display: none;
