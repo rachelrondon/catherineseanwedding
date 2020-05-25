@@ -15,10 +15,26 @@
   margin: 1rem;
 }
 
+.App .landing-page .names  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 4.5rem;
+  color: #041e42;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.App .landing-page .names .name {
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: .5;
+}
+
 .App .nav-bar .landing-page-details .wedding-date {
   margin: 1rem;
   font-size: 2.625rem;
-
 }
 
 .App .nav-bar .landing-page-details .wedding-location {
@@ -64,6 +80,13 @@
   display: flex;
 }
 
+.rosecliff-photo {
+  height: auto;
+  width: 100%;
+  display: flex;
+  margin-top: 14rem;
+}
+
 .photos .photo {
   width: 100%;
   height: auto;
@@ -87,9 +110,10 @@
 .App .nav-bar .MuiToolbar-root .links .link a {
   color: #041e42;
   text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-.rosecliff-mansion {
+.landing-page .rosecliff-mansion {
   height: auto;
   width: 100%;
 }
@@ -103,18 +127,17 @@
   margin-bottom: 10rem;
 }
 
-
-.App .nav-bar .landing-page-details .date-details .wedding-date {
+.App .landing-page .landing-page-details .date-details .wedding-date {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 2.6875rem;
 }
 
-.App .nav-bar .landing-page-details .date-details .wedding-location {
+.App .landing-page .landing-page-details .date-details .wedding-location {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 2.6875rem;
 }
 
-.App .nav-bar .landing-page-details .date-details {
+.App .landing-page .landing-page-details .date-details {
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -125,27 +148,199 @@
   color: white;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  width: 100%;
 }
 
-.App .nav-bar .landing-page-details .date-details .day {
+.App .landing-page .landing-page-details .date-details .day-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.App .landing-page .landing-page-details .date-details .location-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.App .landing-page .landing-page-details .date-details .day {
   font-size: 40px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.App .nav-bar .landing-page-details .date-details .city{
+.App .landing-page .landing-page-details .date-details .city{
   font-size: 40px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.App .nav-bar .landing-page-details .date-details .year {
+.App .landing-page .landing-page-details .date-details .year {
   font-size: 19px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.App .nav-bar .landing-page-details .date-details .state {
+.App .landing-page .landing-page-details .date-details .state {
   font-size: 19px;
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+.schedule {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15rem;
+  justify-content: center;
+}
+
+.left-column {
+  width: 50%;
+  text-align: center;
+}
+
+.left-column .details {
+  margin: 10rem;
+}
+
+.left-column .details .details-title {
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 4.5rem;
+  color: #041e42;
+  font-weight: 400;
+}
+
+.left-column .details .detail {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #041e42;
+}
+
+.right-column {
+  width: 50%;
+  text-align: center;
+}
+
+.right-column .details {
+  margin: 10rem;
+}
+
+.right-column .details .details-title {
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 4.5rem;
+  color: #041e42;
+  font-weight: 400;
+}
+
+.right-column .details .detail {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #041e42;
+}
+
+.right-column .details .map-btn {
+  background-color:  #041e42;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  padding: 0.75rem 0.75rem;
+  width: 5rem;
+  margin-top: 5rem;
+}
+
+.right-column .details .map-btn a {
+  background-color:  #041e42;
+  color: rgba(255, 255, 255);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* Travel */
+
+.travel {
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.travel .left-column {
+  width: 50%;
+  text-align: center;
+}
+
+.travel .left-column .details {
+  margin: 10rem;
+}
+
+.travel .left-column .details .details-title {
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 4.5rem;
+  color: #041e42;
+  font-weight: 400;
+}
+
+.travel .left-column .details .detail {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #041e42;
+}
+
+.travel .left-column .details .contact {
+  margin-top: 4rem;
+}
+
+.travel .left-column .details .details-title {
+  margin-bottom: 1rem;
+}
+
+.travel .right-column .details .contact {
+  margin-top: 4rem;
+}
+
+.travel .right-column .details .details-title {
+  margin-bottom: 1rem;
+}
+
+.travel .right-column {
+  width: 50%;
+  text-align: center;
+}
+
+.travel .right-column .details {
+  margin: 10rem;
+}
+
+.travel .right-column .details .details-title {
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 4.5rem;
+  color: #041e42;
+  font-weight: 400;
+}
+
+.travel .right-column .details .detail {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #041e42;
+}
+
+.travel .column {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.travel .map-btn {
+  background-color:  #041e42;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  padding: 0.75rem 0.75rem;
+  width: 5rem;
+  margin-top: 5rem;
+}
+
+.travel .map-btn a {
+  background-color:  #041e42;
+  color: rgba(255, 255, 255);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
 
 @media (min-width: 768px) {
   .App .nav-bar .MuiButtonBase-root  {
