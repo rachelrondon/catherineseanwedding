@@ -5,6 +5,7 @@ import LandingPage from './landingpage';
 import Schedule from './schedule';
 import NavBar from './navbar.js';
 import Travel from './travel.js';
+import ThingsToDo from './thingsToDo.js';
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
 class App extends Component {
@@ -16,7 +17,8 @@ class App extends Component {
         <Switch>
           <Route path="/" component={LandingPage} exact />
           <Route path="/schedule" component={Schedule} exact />
-          <Route path="/travel" component={Travel} exact /> 
+          <Route path="/travel" component={Travel} exact />
+          <Route path="/things-to-do" component={ThingsToDo} exact />
         </Switch>
         </BrowserRouter>
       </div>

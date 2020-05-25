@@ -37,16 +37,16 @@ const NavBar = () => {
               <a href="/travel">Travel</a>
             </Typography>
             <Typography className="link">
-              <a href="">Registry</a>
+              <a href="/registry">Registry</a>
             </Typography>
             <Typography className="link">
-              <a href="">Wedding Party</a>
+              <a href="/wedding-party">Wedding Party</a>
             </Typography>
             <Typography className="link">
-              <a href="">Photos</a>
+              <a href="/photos">Photos</a>
             </Typography>
             <Typography className="link">
-              <a href="">Things To Do</a>
+              <a href="/things-to-do">Things To Do</a>
             </Typography>
           </div>
         </Toolbar>
