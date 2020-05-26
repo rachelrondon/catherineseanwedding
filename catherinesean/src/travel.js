@@ -14,7 +14,7 @@ const Travel = () => {
               <h3 className="detail">Newport, RI 02840</h3>
               <div className="contact">
                 <h3 className="detail">(401) 847-3300</h3>
-                <button className="map-btn"><a target="_blank" href="https://www.hotelviking.com/?utm_source=google_my_business&utm_medium=organic&utm_campaign=gmb_viking">View</a></button>
+                <button className="map-btn"><a target="_blank" href="https://www.hotelviking.com/">View</a></button>
               </div>
             </div>
           </div>
@@ -172,7 +172,7 @@ const Travel = () => {
           </div>
         </div>
       </div>
-    </div> 
+    </div>
   )
 }
 

@@ -6,53 +6,75 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Typography from '@material-ui/core/Typography';
 
-const NavBar = () => {
+class NavBar extends React.Component {
+  constructor(props) {
+    super(props);
 
-  return (
-    <div className="nav-bar">
-      <AppBar>
-        <Toolbar>
-          <IconButton className="">
+    this.state = {
+      menu: ''
+    }
+  }
 
-          </IconButton>
-          <div className="date-details">
-          <Typography className="wedding-date">
-            May 29, 2021
-          </Typography>
-          <Typography className="wedding-location">
-            Newport, Rhode Island
-          </Typography>
-          </div>
-          <Typography className="title">
-            Catharine & Sean
-          </Typography>
-          <div className="links">
-            <Typography className="link">
-              <a href="/">Home</a>
+  openMenu = () => {
+    this.setState({
+
+    })
+  }
+
+  closeMenu = () => {
+    this.setState({
+    
+    })
+  }
+
+  render() {
+    return(
+      <div className="nav-bar">
+        <AppBar>
+          <Toolbar>
+            <IconButton className="">
+              <MenuIcon />
+            </IconButton>
+            <div className="date-details">
+            <Typography className="wedding-date">
+              May 29, 2021
             </Typography>
-            <Typography className="link">
-              <a href="/schedule">Schedule</a>
+            <Typography className="wedding-location">
+              Newport, Rhode Island
             </Typography>
-            <Typography className="link">
-              <a href="/travel">Travel</a>
+            </div>
+            <Typography className="title">
+              Catharine & Sean
             </Typography>
-            <Typography className="link">
-              <a href="/registry">Registry</a>
-            </Typography>
-            <Typography className="link">
-              <a href="/wedding-party">Wedding Party</a>
-            </Typography>
-            <Typography className="link">
-              <a href="/photos">Photos</a>
-            </Typography>
-            <Typography className="link">
-              <a href="/things-to-do">Things To Do</a>
-            </Typography>
-          </div>
-        </Toolbar>
-      </AppBar>
-    </div>
-  )
+            <div className="links">
+              <Typography className="link">
+                <a href="/">Home</a>
+              </Typography>
+              <Typography className="link">
+                <a href="/schedule">Schedule</a>
+              </Typography>
+              <Typography className="link">
+                <a href="/travel">Travel</a>
+              </Typography>
+              <Typography className="link">
+                <a href="/registry">Registry</a>
+              </Typography>
+              <Typography className="link">
+                <a href="/wedding-party">Wedding Party</a>
+              </Typography>
+              <Typography className="link">
+                <a href="/photos">Photos</a>
+              </Typography>
+              <Typography className="link">
+                <a href="/things-to-do">Things To Do</a>
+              </Typography>
+            </div>
+          </Toolbar>
+        </AppBar>
+      </div>
+    )
+  }
 }
+
 
 export default NavBar;
