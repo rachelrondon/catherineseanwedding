@@ -1,35 +1,29 @@
 import React from 'react';
 import HorizontalLine from './horizontalLine.js';
-import newportmansions from '../public/newport_mansions.jpg';
+import newportmansions from '../public/newport-mansion-img.jpeg';
 import cliffWalk from '../public/cliffwalk.jpg';
-import thamesStreet from '../public/thames_street.jpg';
-import oceanDrive from '../public/ocean_drive.jpg';
-import sightsailing from '../public/sightsailing.jpg';
+import thamesStreet from '../public/thames-street.jpg';
+import oceanDrive from '../public/ocean-drive-img.jpg';
+import sightsailing from '../public/sightsailing-newport.jpg';
 import tennisHallOfFame from '../public/tennis.jpg';
-import newportArtMuseum from '../public/newport_art_museum.jpg';
+import newportArtMuseum from '../public/newport-art.jpg';
 import sailNewport from '../public/sail_newport.jpg';
-import newportvineyards from '../public/newport_vineyards.jpg';
-import redwood from '../public/redwood.jpg';
+import newportvineyards from '../public/newport-vineyards-two.jpeg';
+import redwood from '../public/redwood-library.jpg';
 import trinitynewport from '../public/trinity_church.jpg';
 import eastonsBeach from '../public/eastons-beach.jpg';
 import fortAdams from '../public/fort_adams.jpg';
 import bowenswharf from '../public/bowens-wharf.jpg';
 
 const ThingsToDo = () => {
-
   return (
     <div className="things-to-do">
       <div className="column">
         <div className="left-column">
           <div className="details">
-            <div class="things-to-do-img">
-              <img className="img"
-                style={{
-                  backgroundImage:{newportmansions}
-                }}
-                alt="newport mansions">
-              </img>
-            </div>
+          <div class="things-to-do-img">
+            <img className="img" src={newportmansions} alt="newport mansions"></img>
+          </div>
             <h2 className="details-title">Newport Mansions</h2>
             <h3 className="detail">424 Bellevue Avenue</h3>
             <h3 className="detail">Newport, RI 02840</h3>
