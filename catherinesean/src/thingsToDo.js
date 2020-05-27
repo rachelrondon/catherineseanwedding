@@ -21,7 +21,7 @@ const ThingsToDo = () => {
       <div className="column">
         <div className="left-column">
           <div className="details">
-          <div class="things-to-do-img">
+          <div className="things-to-do-img">
             <img className="img" src={newportmansions} alt="newport mansions"></img>
           </div>
             <h2 className="details-title">Newport Mansions</h2>
@@ -36,7 +36,7 @@ const ThingsToDo = () => {
         <HorizontalLine color="#041e42" />
         <div className="right-column">
           <div className="details">
-          <div class="things-to-do-img">
+          <div className="things-to-do-img">
             <img className="img" src={cliffWalk} alt="newport cliffWalk"></img>
           </div>
             <h2 className="details-title">Cliff Walk</h2>
@@ -53,7 +53,7 @@ const ThingsToDo = () => {
         <div className="column">
           <div className="left-column">
           <div className="details">
-          <div class="things-to-do-img">
+          <div className="things-to-do-img">
             <img className="img" src={thamesStreet} alt="thames street"></img>
           </div>
             <h2 className="details-title">Thames Street</h2>
@@ -67,7 +67,7 @@ const ThingsToDo = () => {
           <HorizontalLine color="#041e42" />
           <div className="right-column">
             <div className="details">
-            <div class="things-to-do-img">
+            <div className="things-to-do-img">
               <img className="img" src={oceanDrive} alt="ocean drive"></img>
             </div>
               <h2 className="details-title">Ocean Drive</h2>
@@ -84,7 +84,7 @@ const ThingsToDo = () => {
           <div className="column">
             <div className="left-column">
             <div className="details">
-              <div class="things-to-do-img">
+              <div className="things-to-do-img">
                 <img className="img" src={sightsailing} alt="sightsailing in newport"></img>
               </div>
               <h2 className="details-title">Sightsailing Newport</h2>
@@ -99,7 +99,7 @@ const ThingsToDo = () => {
             <HorizontalLine color="#041e42" />
             <div className="right-column">
               <div className="details">
-              <div class="things-to-do-img">
+              <div className="things-to-do-img">
                 <img className="img" src={tennisHallOfFame} alt="tennis hall of fame"></img>
               </div>
                 <h2 className="details-title">International Tennis Hall of Fame</h2>
@@ -116,7 +116,7 @@ const ThingsToDo = () => {
           <div className="column">
             <div className="left-column">
             <div className="details">
-              <div class="things-to-do-img">
+              <div className="things-to-do-img">
                 <img className="img" src={newportArtMuseum} alt="Newport Art Museum"></img>
               </div>
               <h2 className="details-title">Newport Art Museum</h2>
@@ -131,7 +131,7 @@ const ThingsToDo = () => {
             <HorizontalLine color="#041e42" />
             <div className="right-column">
               <div className="details">
-                <div class="things-to-do-img">
+                <div className="things-to-do-img">
                   <img className="img" src={sailNewport} alt="Sail Newport"></img>
                 </div>
                 <h2 className="details-title">Sail Newport</h2>
@@ -148,7 +148,7 @@ const ThingsToDo = () => {
           <div className="column">
             <div className="left-column">
             <div className="details">
-            <div class="things-to-do-img">
+            <div className="things-to-do-img">
               <img className="img" src={newportvineyards} alt="Newport Vineyards"></img>
             </div>
               <h2 className="details-title">Newport Vineyards</h2>
@@ -163,7 +163,7 @@ const ThingsToDo = () => {
             <HorizontalLine color="#041e42" />
             <div className="right-column">
               <div className="details">
-              <div class="things-to-do-img">
+              <div className="things-to-do-img">
                 <img className="img" src={redwood} alt="Redwood Library"></img>
               </div>
                 <h2 className="details-title">Redwood Library and Athenaum</h2>
@@ -180,7 +180,7 @@ const ThingsToDo = () => {
           <div className="column">
             <div className="left-column">
             <div className="details">
-              <div class="things-to-do-img">
+              <div className="things-to-do-img">
                 <img className="img" src={trinitynewport} alt="Trinity Church"></img>
               </div>
               <h2 className="details-title">Trinity Church</h2>
@@ -195,7 +195,7 @@ const ThingsToDo = () => {
             <HorizontalLine color="#041e42" />
             <div className="right-column">
               <div className="details">
-              <div class="things-to-do-img">
+              <div className="things-to-do-img">
                 <img className="img" src={eastonsBeach} alt="Easton's Beach"></img>
               </div>
                 <h2 className="details-title">Easton's Beach</h2>
@@ -212,7 +212,7 @@ const ThingsToDo = () => {
           <div className="column">
             <div className="left-column">
             <div className="details">
-            <div class="things-to-do-img">
+            <div className="things-to-do-img">
               <img className="img" src={fortAdams} alt="Fort Adams"></img>
             </div>
               <h2 className="details-title">Fort Adams</h2>
@@ -227,7 +227,7 @@ const ThingsToDo = () => {
             <HorizontalLine color="#041e42" />
             <div className="right-column">
               <div className="details">
-              <div class="things-to-do-img">
+              <div className="things-to-do-img">
                 <img className="img" src={bowenswharf} alt="Bowen's Wharf"></img>
               </div>
                 <h2 className="details-title">Bowen's Wharf</h2>

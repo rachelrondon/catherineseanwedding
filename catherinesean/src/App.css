@@ -326,9 +326,22 @@
   margin-bottom: 1rem;
 }
 
+.nav-bar .MuiDrawer-paper {
+  width: 100%;
+  align-items: center;
+}
+
 .travel .right-column {
   width: 50%;
   text-align: center;
+}
+
+.App .nav-bar .mobile-nav-list .MuiTypography-root {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 19px;
 }
 
 .travel .right-column .details {
@@ -406,15 +419,27 @@
   border-radius: 50%;
 }
 
+.drawer-paper {
+  width: 240;
+}
+
+.drawer {
+  width: 240;
+  flex-shrink: 0;
+}
+
 @media (min-width: 768px) {
   .App .nav-bar .MuiButtonBase-root  {
     display: none;
   }
+  .makeStyles-drawer-6 {
+    display: none;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .landing-page-details {
-    margin-bottom: 0; 
+    margin-bottom: 0;
   }
   .landing-page .photos {
     display: flex;
@@ -425,7 +450,26 @@
     margin-top: 10rem;
     padding: 0;
   }
+  .App .nav-bar .MuiToolbar-root .links {
+    display: none;
+  }
+  .App .nav-bar .MuiToolbar-root .date-details {
+    display: none;
+  }
+  .App .nav-bar .MuiToolbar-root {
+    display: flex;
+    flex-direction: row;
+  }
+  .App .nav-bar .MuiToolbar-root .makeStyles-menuButton-4 {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .App .nav-bar .title {
+    font-size: 35px;
+  }
 }
+
+
 
 @media (max-width: 1023px) {
   .things-to-do .column {
