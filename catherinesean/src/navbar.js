@@ -155,11 +155,27 @@ const NavBar = () => {
           </IconButton>
         </div>
         <List className="mobile-nav-list">
-          {['Home', 'Schedule', 'Travel', 'Registry', 'Wedding Party', 'Photos'].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemText primary={text} />
-            </ListItem>
-          ))}
+          <ListItem>
+              <a href="/">HOME</a>
+          </ListItem>
+          <ListItem>
+              <a href="/schedule">SCHEDULE</a>
+          </ListItem>
+          <ListItem>
+              <a href="/travel">TRAVEL</a>
+          </ListItem>
+          <ListItem>
+              <a href="/registry">REGISTRY</a>
+          </ListItem>
+          <ListItem>
+              <a href="/wedding-party">WEDDING PARTY</a>
+          </ListItem>
+          <ListItem>
+              <a href="/photos">PHOTOS</a>
+          </ListItem>
+          <ListItem>
+              <a href="/things-to-do">THINGS TO DO</a>
+          </ListItem>
         </List>
         </Drawer>
       </div>

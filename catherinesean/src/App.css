@@ -328,9 +328,14 @@
 
 .nav-bar .MuiDrawer-paper {
   width: 100%;
-  align-items: center;
+  align-items: baseline;
 }
 
+.App .nav-bar .MuiList-root {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0; 
+}
 .travel .right-column {
   width: 50%;
   text-align: center;
@@ -438,16 +443,119 @@
 }
 
 @media (max-width: 767px) {
+  .MuiListItem-root a {
+    color: #041e42;
+    text-decoration: none;
+  }
+  .MuiListItem-root a:hover {
+    color: #041e42;
+    text-decoration: underline;
+  }
+  .mobile-nav-list {
+    font-size: 1.5rem;
+  }
+  .mobile-nav-list li {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .makeStyles-drawerHeader-8  {
+    justify-content: flex-start;
+  }
+  .MuiList-root .mobile-nav-list .MuiList-padding {
+    margin: 0 auto;
+  }
+  .App .nav-bar .MuiDrawer-paper {
+    align-items: left;
+    color: #041e42;
+  }
+  .schedule {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .App .landing-page .names .name {
+    font-size: 2.5rem;
+  }
+  .App .landing-page .names  {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .landing-page-details {
+    margin-top: 0;
+  }
+  .App .landing-page .landing-page-details .date-details {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .rosecliff-photo {
+    margin-top: 5rem;
+  }
+  .App .landing-page .landing-page-details .date-details {
+    display: flex;
+    flex-direction: column;
+  }
+  .travel {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  .travel .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .travel .left-column {
+    width: auto;
+  }
+  .travel .left-column .details {
+    margin: 0;
+  }
+  .left-column .details {
+    margin: 0;
+  }
+  .travel .right-column {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .travel .right-column .details {
+    margin: 0;
+  }
+  .travel .right-column {
+    width: auto;
+  }
+  .right-column .details {
+    margin: 0;
+  }
+  .things-to-do {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .left-column {
+    width: auto;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+  .right-column {
+    width: auto;
+    justify-content: center;
+    margin-top: 5rem;
+  }
   .landing-page-details {
     margin-bottom: 0;
   }
   .landing-page .photos {
     display: flex;
     flex-direction: column;
+    margin-bottom: 5rem;
   }
   .landing-page .photos .photo {
     margin: 0;
-    margin-top: 10rem;
+    margin-top: 5rem;
     padding: 0;
   }
   .App .nav-bar .MuiToolbar-root .links {
@@ -468,8 +576,6 @@
     font-size: 35px;
   }
 }
-
-
 
 @media (max-width: 1023px) {
   .things-to-do .column {
